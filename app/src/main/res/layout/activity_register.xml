@@ -1,0 +1,112 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="match_parent"
+        tools:context=".Login">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Name"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Id"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/etId"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Address"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Latitude"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/etLatitude"
+            android:layout_width="match_parent"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Longitude"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/etLongitude"
+            android:layout_width="match_parent"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Pincode"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/etPincode"
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="City"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/etCity"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Username"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Password"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/bRegister"
+            android:text="Register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="OnReg"/>
+
+
+
+    </LinearLayout>
+</ScrollView>
